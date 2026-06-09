@@ -3,10 +3,10 @@
 #include "DHT.h"
 
 // 1. Network and ThingSpeak Credentials
-const char* ssid = "OnePlus Nord CE5 w5ya";
-const char* password = "yohipara";
-unsigned long myChannelNumber = 3326078; 
-const char* myWriteAPIKey = "6YZ5XDDS6P7TXPTD";
+const char* ssid = "YOUR_WIFI_NAME";
+const char* password = "YOUR_WIFI_PASSWORD";
+unsigned long myChannelNumber = YOUR_CHANNEL_ID; 
+const char* myWriteAPIKey = "YOUR_API_KEY";
 
 // 2. Hardware Pin Definitions (Non-I2C) [Ref 278]
 #define DHTPIN 4          // DHT22 Signal (Confirmed working in logs)
