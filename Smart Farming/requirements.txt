@@ -6,3 +6,5 @@ lightgbm
 scikit-learn
 matplotlib
 joblib
+requests
+python-dotenv
