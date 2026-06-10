@@ -1,7 +1,7 @@
 pandas
 numpy
 streamlit
-catboost
+catboost==1.2.10
 lightgbm
 scikit-learn
 matplotlib
