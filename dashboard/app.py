@@ -157,7 +157,7 @@ def load_model():
 
     model = CatBoostRegressor()
 
-    model.load_model("multi_output_agronomist.bin")
+    model.load_model("../models/multi_output_agronomist.bin")
 
     return model
 
