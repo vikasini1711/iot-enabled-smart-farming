@@ -157,7 +157,10 @@ def load_model():
 
     model = CatBoostRegressor()
 
-    model.load_model("../models/multi_output_agronomist.bin")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    MODEL_PATH = os.path.join(BASE_DIR, "..", "models", "multi_output_agronomist.bin")
+
+    model.load_model(MODEL_PATH)
 
     return model
 
